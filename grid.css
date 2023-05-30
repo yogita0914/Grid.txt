@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #020214, rgb(7, 7, 90), #b94eeb);
+
+}
+
+.logo {
+    height: 80px;
+    width: 90px;
+    margin-top: 20px;
+}
+
+
+.skills {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.para {
+    font-weight: lighter;
+    margin-top: 18px;
+    text-align: center;
+
+}
+
+
+.button {
+    color: #fff;
+    background-color: #3f3b3b;
+    font-size: 16px;
+    margin-top: 7px;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.heading {
+    margin-top: 18px;
+}
+
+.box:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+
+}
+
+.contain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding: 50px;
+    margin-bottom: 80px;
+}
+.box{
+    background-color: #fff;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    
+
+}
+
+/* @media only screen and (max-width: 900px) {
+
+    .contain {
+        grid-template-columns: 1fr 1fr;
+        padding: 30px;
+    }
+
+}
+@media only screen and (max-width: 500px) {
+
+    .contain {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+} */
